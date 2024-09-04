@@ -1,0 +1,133 @@
+@media(max-width:600px){
+    nav, ul, li,a {
+        display: none;
+
+    }
+    .menu-bar{
+        display: block;
+     
+    }
+
+    .span1{
+        font-size: 14px;
+    }
+}
+
+
+
+@media(max-width:500px){
+    .menu-bar,i:hover{
+        position: relative;
+    }
+    nav{
+        position: absolute;
+    }
+
+    .span1{
+        line-height: 20px;
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .home-p{
+        font-size: 20px;
+    }
+
+
+}
+
+@media(max-width:340px){
+    .explore{
+        left: 30%;
+    }
+}
+
+@media(max-width:100px){
+    .span1{
+        line-height: 18px;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+@media(max-width:830px){
+    .span1{
+        line-height: 20px;
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+@media(max-width:600px){
+    .span1{
+        line-height: 18px;
+        padding: 10px;
+        font-size: 10px;
+    }
+}
+
+
+ @media(min-width:840px) and (max-width:1070px){
+    .span1{
+        line-height: 16px;
+        padding: 5px;
+        font-size: 14px;
+    }
+ }
+
+ @media(max-width:400px){
+    .span1{
+        line-height: 15px;
+        font-size: 8px;
+    }
+ }
+
+ @media(max-width:650px){
+    nav, ul, li,a{
+        font-size: 10px;
+    }
+ }
+
+@media(max-width:450px){
+    .container{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); 
+        gap: 40px 20px;
+        width: 90%;
+        margin: 10px auto 20px;
+   }
+   
+   .box{
+       height: 400px;
+       overflow: hidden;
+       min-width: 300px;
+       border-radius: 10px;
+   
+   }
+}
+
+
+@media(max-width:755px){
+    .container{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); 
+        gap: 60px 40px;
+        width: 90%;
+        margin: 10px auto 20px;
+   }
+   
+   .box{
+       height: 300px;
+       overflow: hidden;
+       min-width: 300px;
+       border-radius: 10px;
+   
+   }
+
+}
+
+
+
+
+
+ 
